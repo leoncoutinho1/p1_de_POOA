@@ -29,44 +29,13 @@ export default {
       { text: "Área total", value: "areaTotal"},
       { text: "Área construída", value: "areaConstruida"}
     ],
-    imoveis: [{
-        id: 1,
-        bairro: 'Centro',
-        cidade: 'Campos dos Goytacazes',
-        valor: 500000,
-        areaTotal: 100,
-        areaConstruida: 80 
-    },
-    {
-        id: 2,
-        bairro: 'Pecuaria',
-        cidade: 'Campos dos Goytacazes',
-        valor: 200000,
-        areaTotal: 150,
-        areaConstruida: 120 
-    },
-    {
-        id: 3,
-        bairro: 'Guarus',
-        cidade: 'Campos dos Goytacazes',
-        valor: 120000,
-        areaTotal: 80,
-        areaConstruida: 80 
-    },
-    {
-        id: 4,
-        bairro: 'Donana',
-        cidade: 'Campos dos Goytacazes',
-        valor: 140000,
-        areaTotal: 140,
-        areaConstruida: 100 
-    }]
+    imoveis: []
   }),
   methods: {
     inicializa() {
       axios.get('http://localhost:3000/imoveis')
         .then((response) => {
-          this.users = response.data
+          this.imoveis = response.data
         })
         .catch((error)=> console.log(error))
     }
