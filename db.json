@@ -1,0 +1,53 @@
+{
+    "users": [
+            {
+            "id": 1,
+            "name": "Andre Marques",
+            "location": "Brazil"
+            },
+            {
+            "id": 2,
+            "name": "Julio",
+            "location": "Canadá"
+            },
+            {
+            "id": "3",
+            "name": "Luciana",
+            "location": "Brasil"
+            }
+    ],
+    "imoveis": [
+        {
+            "id": 1,
+            "bairro": "Centro",
+            "cidade": "Campos dos Goytacazes",
+            "valor": 500000,
+            "areaTotal": 100,
+            "areaConstruida": 80 
+        },
+        {
+            "id": 2,
+            "bairro": "Pecuaria",
+            "cidade": "Campos dos Goytacazes",
+            "valor": 200000,
+            "areaTotal": 150,
+            "areaConstruida": 120 
+        },
+        {
+            "id": 3,
+            "bairro": "Guarus",
+            "cidade": "Campos dos Goytacazes",
+            "valor": 120000,
+            "areaTotal": 80,
+            "areaConstruida": 80 
+        },
+        {
+            "id": 4,
+            "bairro": "Donana",
+            "cidade": "Campos dos Goytacazes",
+            "valor": 140000,
+            "areaTotal": 140,
+            "areaConstruida": 100 
+        }
+    ]
+}
